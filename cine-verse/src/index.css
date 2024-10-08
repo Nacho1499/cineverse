@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  }
+  .navbar{
+    opacity: 0.9;
+  }
+  .hero{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+  }
+  .trending-list{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+
+  }
+  .trending-list::-webkit-scrollbar{
+    display: none;
+  }
+  .trending-image{
+    height: 300px;
+    width: 250px;
+    border-radius: 5px;
+    object-fit: cover;
+    transition: 0.4s ease-in-out;
+  }
+  .trending-image:hover{
+    width: 280px;
+  }
+  
+
+  .footer{
+    margin-left: 10px;
+  }
+  .emma{
+    height: 50vh;
+    width: 100vw;
+    object-fit: cover;
+  }
+  @media(max-width:550px) {
+    .emma{
+      height: 30vh;
+    }
+    
+  }
+  .para{
+    display: none;
+  }
+  .show{
+    display: block;
+  }
+  
