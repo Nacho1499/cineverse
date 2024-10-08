@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
-import quiet from "../assets/quiet.mp4"
+import quiet from "../assets/quiet.mp4";
 import Scroll from './Scroll';
 
 
