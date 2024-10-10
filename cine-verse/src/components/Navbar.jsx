@@ -4,21 +4,15 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     return(
         <>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
-  <div className="container">
-    <a className="navbar-brand" href="#"><h3 >Cine<span className='text-danger'>Verse</span></h3></a>
-    <button className="navbar-toggler bg-danger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#"><h3 >Cine<span className='text-danger'>Verse</span></h3></a>
+    <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
     </button>
-    <div className="offcanvas offcanvas-end bg-black" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div className="offcanvas-header">
-        <div className="offcanvas-title" id="offcanvasNavbarLabel"><h3 className='text-light' >Cine <span className='text-danger'>Verse</span></h3></div>
-        <button type="button" className="btn-close bg-danger" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div className="offcanvas-body">
-        <hr className='text-light' />
-        <ul className="navbar-nav  mx-auto">
-          <li className="nav-item">
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav mx-auto">
+      <li className="nav-item">
             <Link className="nav-link text-light" to="/">Home</Link>
           </li>
           <li className="nav-item">
@@ -35,13 +29,14 @@ const Navbar = () => {
               
             </ul>
           </li>
-        </ul>
-        <Link to="/update" className='btn btn-danger mt-1'>Updates <i class="fa-solid fa-bell"></i></Link>
+      </ul>
+      <Link to="/update" className='btn btn-danger mt-1 mb-2'>Updates <i class="fa-solid fa-bell"></i></Link>
         
-      </div>
     </div>
+    
   </div>
 </nav>
+    
         </>
     )
 }

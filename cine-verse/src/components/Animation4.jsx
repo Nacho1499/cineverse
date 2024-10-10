@@ -17,7 +17,7 @@ const Animation4 = () => {
     <div className='container-fluid bg-black p-3'>
         <div className='container'>
         <Link to="/animation" className='btn btn-outline-danger mt-4'><i class=" fa-solid fa-circle-arrow-left"></i></Link>
-        <video className='emma  img-fluid mt-5' src={supermen} loop controls/>
+        <video className='emma  img-fluid mt-5  rounded' src={supermen} loop controls/>
         
         <div className='text-light mt-3'>
         <h3>Reign Of The Supermen</h3>

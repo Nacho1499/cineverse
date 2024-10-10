@@ -17,7 +17,7 @@ const Trending3 = () => {
         <div className='container-fluid bg-black p-3'>
         <div className='container'>
         <Link to="/trending" className='btn btn-outline-danger mt-4'><i class=" fa-solid fa-circle-arrow-left"></i></Link>
-        <video className='emma  img-fluid mt-5' src={quiet} loop controls autoPlay/>
+        <video className='emma  img-fluid mt-5 rounded' src={quiet} loop controls autoPlay/>
         
         <div className='text-light mt-3'>
         <h3>A Quiet Place (Day One)</h3>

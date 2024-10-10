@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
-import ape from "../assets/ape.mp4"
+import ape from "../assets/interstellar.mp4"
 import Scroll from './Scroll';
 
 
@@ -17,7 +17,7 @@ const Top4 = () => {
         <div className='container-fluid bg-black p-3'>
         <div className='container'>
         <Link to="/" className='btn btn-outline-danger mt-4'><i class=" fa-solid fa-circle-arrow-left"></i></Link>
-        <video className='emma  img-fluid mt-5' src={ape} loop controls />
+        <video className='emma  img-fluid mt-5 rounded' src={ape} loop controls />
         
         <div className='text-light'>
         <h3>Interstellar</h3>

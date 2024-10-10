@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
-import jurassic2 from "../assets/ape.mp4";
+import jurassic2 from "../assets/jurassic.mp4";
 import Scroll from './Scroll';
 
 
@@ -17,7 +17,7 @@ const Trending2 = () => {
             <div className='container-fluid bg-black p-3'>
         <div className='container'>
         <Link to="/trending" className='btn btn-outline-danger mt-4'><i class=" fa-solid fa-circle-arrow-left"></i></Link>
-        <video className='emma  img-fluid mt-5' src={jurassic2} loop controls/>
+        <video className='emma  img-fluid mt-5 rounded' src={jurassic2} loop controls/>
         
         <div className='text-light mt-3'>
         <h3>Jurassic World (Dominion)</h3>

@@ -102,9 +102,9 @@ const Soon = () => {
                     
                   
                      
-<button type="button" className="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Movie Request</button>
+<button type="button" className="btn btn-outline-danger  " data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Movie Request</button>
 
-<div className="modal fade text-light" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div className="modal fade text-light " id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div className="modal-dialog navbar">
     <div className="modal-content bg-dark">
       <div className="modal-header">
@@ -112,26 +112,27 @@ const Soon = () => {
         <button type="button" className="btn-close bg-danger" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div className="modal-body text-light">
-        <form action="" method=''>
+        <form   action="https://formspree.io/f/xvgpyadg" method='POST'>
           <div className="mb-2">
             <label  className="col-form-label">Username:</label>
-            <input name='username' type="text" className="form-control" id="recipient-name"/>
+            <input name='username' type="text" className="form-control" id="recipient-name" required/>
           </div>
           <div className="mb-2">
             <label  className="col-form-label">Email:</label>
-            <input name='email' type="text" className="form-control" id="recipient-name"/>
+            <input name='email' type="text" className="form-control" id="recipient-name" required/>
           </div>
           <div className="mb-2">
             <label  className="col-form-label">Movie Name:</label>
-            <input name='movie-name' type="text" className="form-control" id="recipient-name"/>
+            <input name='movie-name' type="text" className="form-control" id="recipient-name" required/>
           </div>
           <p>Your request will be attended to within 24hrs</p>
+          <div className="modal-footer mb-2">
+        <button type="submit" className="btn btn-danger">Send Request</button>
+      </div>
           
         </form>
       </div>
-      <div className="modal-footer mb-2">
-        <button type="button" className="btn btn-danger">Send Request</button>
-      </div>
+     
     </div>
   </div>
 </div>
