@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
-import ape from "../assets/interstellar.mp4"
+import ape from "../assets/ape.mp4"
 import Scroll from './Scroll';
 
 

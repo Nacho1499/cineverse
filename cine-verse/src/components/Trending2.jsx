@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
-import jurassic2 from "../assets/jurassic.mp4";
+import jurassic2 from "../assets/ape.mp4";
 import Scroll from './Scroll';
 
 
